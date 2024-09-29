@@ -1,0 +1,21 @@
+{
+  "name": "maze",
+  "version": "1.0.0",
+  "description": "maze game",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "keywords": [
+    "maze"
+  ],
+  "author": "Petar",
+  "license": "ISC",
+  "devDependencies": {
+    "web": "^0.0.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
