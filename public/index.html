@@ -4,9 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maze</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    mazdfdezez
+    <div class="win hidden"></div>
+
+    <div class="container">
+      <div class="upper">
+        <div class="left">
+          <h1>Maze</h1>
+        </div>
+
+        <div class="right">
+          <p>Remain:</p>
+          <span class="sec">20</span>
+          <span>sec</span>
+        </div>
+      </div>
+      <div class="game">
+        <div class="modal hidden">
+          <p class="win hidden">You win :D</p>
+          <p class="lose hidden">You lose</p>
+        </div>
+      </div>
+    </div>
 
     <script type="module" src="./main.js"></script>
   </body>

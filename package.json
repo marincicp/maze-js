@@ -14,8 +14,12 @@
   "author": "Petar",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^7.1.2",
     "web": "^0.0.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "matter-js": "^0.20.0"
   }
 }
