@@ -80,8 +80,10 @@ class Walls {
             columnIndex * this.game.cellLengthX + this.game.cellLengthX,
             rowIndex * this.game.cellLengthY + this.game.cellLengthY / 2,
             10,
-            this.game.cellLengthY,
+            this.game.cellLengthY + 10,
             {
+              chamfer: { radius: [5, 5, 5, 5] },
+              showAngleIndicator: true,
               label: "wall",
               isStatic: true,
               render: {
@@ -104,7 +106,7 @@ class Walls {
           Bodies.rectangle(
             columnIndex * this.game.cellLengthX + this.game.cellLengthX / 2,
             rowIndex * this.game.cellLengthY + this.game.cellLengthY,
-            this.game.cellLengthX,
+            this.game.cellLengthX + 5,
             10,
             {
               isStatic: true,

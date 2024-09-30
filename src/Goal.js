@@ -15,7 +15,7 @@ class Goal {
       goalPositionY,
       this.game.cellLengthX / 4,
       this.game.cellLengthY / 4,
-      { label: "goal", render: { fillStyle: "#a9e34b" } }
+      { label: "goal", render: { fillStyle: "#37b24d" } }
     );
 
     Composite.add(this.game.world, this.goal);

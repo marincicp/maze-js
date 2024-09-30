@@ -22,7 +22,7 @@ class Ball {
     const ballRadius =
       Math.min(this.game.cellLengthY, this.game.cellLengthY) / 5;
     this.ball = Bodies.circle(ballPositionX, ballPositionY, ballRadius, {
-      render: { fillStyle: "blue" },
+      render: { fillStyle: "#74c0fc" },
       label: "ball",
     });
     Composite.add(this.world, this.ball);
