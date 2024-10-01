@@ -10,33 +10,44 @@
     <div class="win hidden"></div>
 
     <div class="container">
-      <div class="upper">
-        <div class="left">
+      <div class="game-info">
+        <div class="game-info-left">
           <h1>Maze</h1>
         </div>
 
-        <div class="right">
-          <p>Remain:</p>
-          <span class="sec">20</span>
-          <span>sec</span>
+        <div class="game-info-right">
+          <div class="game-info-level">
+            <label for="game-level">Game Level:</label>
+            <select name="game-level" id="game-level">
+              <option disabled value="">Select game level</option>
+              <option selected value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+          <div class="game-info-time">
+            <p>Remain:</p>
+            <span class="sec">20</span>
+            <span>sec</span>
+          </div>
         </div>
       </div>
       <div class="game">
-        <!-- <div class="overlay"></div> -->
-        <!-- <div class="modal modal-win">
+        <div class="overlay hidden"></div>
+        <div class="modal modal-win hidden">
           <p class="lose">You win! 😀</p>
           <div class="reset">
             <button class="btn-reset">Try Again</button>
           </div>
-        </div> -->
+        </div>
         <!-- <div class="modal modal-lose">
           <p class="lose">You lose! 😥</p>   <div class="reset">
 
             <button class="btn-reset">Try Again</button>
           </div>
-          </div> -->
-        </div>
+          </div>  -->
       </div>
+      <div class="gameBox"></div>
     </div>
 
     <script type="module" src="./main.js"></script>
